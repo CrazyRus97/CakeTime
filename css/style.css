@@ -1,0 +1,135 @@
+:root {
+  --main-font-family: "Nunito", sans-serif;
+  --second-font-family: "Pacifico", cursive;
+  --third-font-family: "Oooh Baby", cursive;
+}
+
+body {
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  color: #47301a;
+  background-color: #e8eae5;
+}
+
+button {
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*==================================== COMPONENTS ==================================== */
+/*==================================== /COMPONENTS ==================================== */
+
+/*==================================== HEADER ==================================== */
+.page-header {
+  padding-top: 19px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.main-menu-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #704f55;
+}
+
+.logo {
+  margin-left: 167px;
+}
+.logo-parts {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.logo-text {
+  max-width: 63px;
+  font-family: var(--second-font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100.6%;
+  color: #fff9ef;
+}
+
+.contact-info {
+  margin-left: 218px;
+}
+.contact-list-link {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #704f55;
+}
+
+.modal-opn-btn {
+  margin-left: 32px;
+  width: 44px;
+  height: 44px;
+}
+/*==================================== /HEADER ==================================== */
+
+.hero {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #e8eae5;
+  background-image: url("../images/background-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-title {
+  max-width: 388px;
+  font-family: var(--second-font-family);
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100.6%;
+  text-align: center;
+  color: #704f55;
+}
+
+/*==================================== FOOTER ==================================== */
+/*==================================== /FOOTER ==================================== */
